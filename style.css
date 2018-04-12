@@ -1,0 +1,59 @@
+html, body {
+    height: 100%;
+    background-image: url('https://images.unsplash.com/photo-1506875644286-0fa3dc4df91f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=48fc83b2fb510354f2c1200bf0d4c1d6');
+    background-size: cover;
+    background-color: #333333;
+    z-index: -2;
+    background-repeat: no-repeat;
+}
+#jokeDisplay {
+    color: #f3f3f3;
+    font-size: 3.1em;
+    opacity: 0.95;
+}
+hr {
+    width: 50%;
+    color: #f3f3f3;
+    opacity: 0.6;
+    border-bottom: solid 4px #333333
+}
+h1, p {
+    display: flex;
+    justify-content: center;
+    max-width: 25em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.11em;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    margin: 40px auto;
+    color: #f3f3f3;
+    line-height: 145%;
+    z-index: -1;
+}
+.container {
+    height: 20em;
+    text-align: center;
+}
+#nextJoke {
+    color: #f3f3f3;
+    background-color: #333333;
+    border: thick solid #d2d22d;
+    opacity: 0.75;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.11em;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    height: 55px;
+    widows: 120px;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+#btn:hover {
+    background-color: #d2d22d;
+    color: blue;
+    opacity: 0.75;
+
+}
+.butt {
+    text-align: center;
+}
